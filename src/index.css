@@ -1,1 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+:root {
+    --color-bg-primary: #fff;
+    --color-bg-secondary: #ff2323;
+    --color-bg-tertiary: #dadada;
+
+    --color-font-primary: #6f6f6f;
+    --color-font-secondary: #fff;   
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+body {
+    background-color: var(--color-bg-tertiary);
+}
+
+a, a:hover {
+    text-decoration: none;
+    color: unset;
+}
+
+.dflex {
+    display: flex; /* utilizamos esse recurso quando temos um botao dentro de uma div. Dessa forma ele vai ocupar o menor espaço possível */
+}
+
+.container {
+    width: 100%;
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+.mb30 {
+    margin-bottom: 30px;
+}
+
+.mt30 {
+    margin-top: 30px;
+}
 
