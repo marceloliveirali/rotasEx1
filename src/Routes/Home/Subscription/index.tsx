@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 import Button from "../../../components/Button";
 import Card from "../../../components/Card";
 
-function HomeBody() 
+function Subscription() 
 {
     return (
         <>
@@ -10,13 +10,13 @@ function HomeBody()
                 <section>
                     <div className="container">
                         <div className="mt30 mb30">
-                            <Card title="Página inicial" />
+                            <Card title="Página de inscrição" />
                         </div>
-                        <div className="dflex">
-                            <Link to="/promotion">
+                        <Link to="/promotion">
+                            <div className="dflex">
                                 <Button text="Ver promoção" />
-                            </Link> 
-                        </div>
+                            </div>
+                        </Link>
                     </div>
                 </section>
             </main>
@@ -24,4 +24,4 @@ function HomeBody()
     );
 }
 
-export default HomeBody;
+export default Subscription;
